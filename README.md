@@ -12,6 +12,16 @@ A Docker PHP development environment that facilitates running **PHP** Apps on **
 
 [**Full Documentation Here**](http://laradock.io)
 
+## Operate
+
+```
+cp .env-dev .env
+
+docker-compose up -d nginx php-fpm mysql redis mongo 
+
+docker-compose exec workspace bash
+```
+
 ## Credits
 
 **Maintainers:**
