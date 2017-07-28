@@ -1,7 +1,12 @@
 {
-	"authHost": "localhost",
+	"authHost": "dev.laravel",
 	"authEndpoint": "/broadcasting/auth",
-	"clients": [],
+	"clients": [
+		{
+			"appId": "f139724e-3739-432f-9610-8796ebdb6bc2",
+			"key": "GS5ziMqt53weGHvK4iS0cPgcHJnBh3D8"
+		}
+	],
 	"database": "redis",
 	"databaseConfig": {
 		"redis": {
@@ -12,8 +17,8 @@
 	"devMode": true,
 	"host": null,
 	"port": "6001",
-	"protocol": "http",
+	"protocol": "https",
 	"socketio": {},
-	"sslCertPath": "",
-	"sslKeyPath": ""
+	"sslCertPath": "/usr/src/app/ssl/ssl.crt",
+	"sslKeyPath": "/usr/src/app/ssl/ssl.key"
 }
